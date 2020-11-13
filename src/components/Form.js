@@ -18,7 +18,7 @@ const Form = props => {
     }
 
   return (
-    <div className="Form" onSubmit={onSubmit}>
+    <div className="form" onSubmit={onSubmit}>
       <h1>Builde Your Own Pizza</h1>
       <form>
           <label>
