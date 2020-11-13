@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Form.css";
+
 import Confirmation from "./Confirmation";
 
 const Form = props => {
@@ -18,7 +20,10 @@ const Form = props => {
     }
 
   return (
-    <div className="form" onSubmit={onSubmit}>
+    <div className="form-container" onSubmit={onSubmit}>
+      <div className="pizza-img">
+          <img src="https://images.getbento.com/accounts/63e50d3a0270f2fe2c25af59b44fc235/media/images/50714PHIL_Side-1.jpg?fit=max&w=1800&auto=format,compress" alt="pizza" />
+      </div>
       <h1>Builde Your Own Pizza</h1>
       <form>
           <label>
